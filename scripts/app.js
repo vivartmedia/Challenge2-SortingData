@@ -45,9 +45,9 @@ export function createTable(currentData) {
     currentData.forEach(item => {
         const tr = document.createElement('tr');
         tr.innerHTML = `
-            <td>${item.Id}</td>        <!-- Make sure the property names are correctly cased -->
-            <td>${item.FirstName}</td> <!-- JavaScript is case-sensitive; these should match -->
-            <td>${item.LastName}</td>  <!-- the case of the keys in your data objects -->
+            <td>${item.Id}</td>        
+            <td>${item.FirstName}</td> 
+            <td>${item.LastName}</td> 
             <td>${item.Email}</td>
             <td>${item.Height}</td>
             <td>${item.Age}</td>
